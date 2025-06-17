@@ -1,0 +1,19 @@
+check_interval: 5  # minutos
+websites:
+  - name: Google
+    url: https://www.google.com
+  - name: Github
+    url: https://github.com
+notifications:
+  email:
+    enabled: true
+    smtp_server: smtp.gmail.com
+    smtp_port: 587s
+    username: seu_email@gmail.com
+    password: sua_senha_de_app
+    from: seu_email@gmail.com
+    to: destinatario@gmail.com
+  telegram:
+    enabled: false
+    bot_token: SEU_TOKEN_AQUI
+    chat_id: SEU_CHAT_ID_AQUI

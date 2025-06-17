@@ -1,0 +1,4 @@
+requests
+PyYAML
+schedule
+python-telegram-bot
